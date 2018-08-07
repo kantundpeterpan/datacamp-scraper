@@ -1,0 +1,54 @@
+
+#  [[20180807224000]] Importing data from flat files with utils 
+
+   * Introduction & read.csv
+   * read.csv
+   * stringsAsFactors
+   * Any changes?
+   * read.delim & read.table
+   * read.delim
+   * read.table
+   * Arguments
+   * Column classes
+   * Final Thoughts
+
+#  [[20180807224001]] readr & data.table 
+
+   * readr: read_csv & read_tsv
+   * read_csv
+   * read_tsv
+   * readr: read_delim
+   * read_delim
+   * skip and n_max
+   * col_types
+   * col_types with collectors
+   * data.table: fread
+   * fread
+   * fread: more advanced use
+   * Dedicated classes
+
+#  [[20180807224002]] Importing Excel data 
+
+   * readxl (1)
+   * List the sheets of an Excel file
+   * Import an Excel sheet
+   * Reading a workbook
+   * readxl (2)
+   * The col_names argument
+   * The skip argument
+   * gdata
+   * Import a local file
+   * read.xls() wraps around read.table()
+   * Work that Excel data!
+
+#  [[20180807224003]] Reproducible Excel work with XLConnect 
+
+   * Reading sheets
+   * Connect to a workbook
+   * List and read Excel sheets
+   * Customize readWorksheet
+   * Adapting sheets
+   * Add worksheet
+   * Populate worksheet
+   * Renaming sheets
+   * Removing sheets
