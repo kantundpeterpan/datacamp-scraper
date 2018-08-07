@@ -1,5 +1,4 @@
 
-
 # coding: utf-8
 
 # In[1]:
@@ -15,11 +14,10 @@ import re								  #For regex parsing of `sct`
 import subprocess						  #For accessing pandoc
 
 
-# In[72]:
+# In[79]:
 
 
 def get_course_title(link):
-	link = 'https://www.datacamp.com/courses/experimental-design-in-r'
 	html = urlopen(link)
 	soup = BeautifulSoup(html, 'lxml')
 	return soup.title.text
@@ -172,9 +170,9 @@ def main(link):
 	get_whole_course(course_dictionary, link)
 
 
-# In[76]:
+# In[82]:
 
 
-link = 'https://www.datacamp.com/courses/experimental-design-in-r'
+link = 'https://www.datacamp.com/courses/importing-data-in-r-part-1'
 main(link)
 
